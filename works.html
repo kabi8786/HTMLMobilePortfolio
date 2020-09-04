@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--reference to CSS-->
+        <link rel="stylesheet" type="text/css" href="stylesAN.css">
+        
+        <!--title of browser tab-->
+        <title>Projects</title>
+        
+        <!--meta tags about homepage-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Anna Nguyen">
+        <meta name="description" content="This is the portfolio page showcasing different projects.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header>
+            <h2>Anna Nguyen</h2>
+            <!--navigation bar content-->
+                <!--current active tab on 'works'-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="works.html">Projects</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <article class="work-portfolio-list">
+                
+                <section id="code-project">
+                    <h2>Coding Project</h2>
+                    <p>Reproduced a cityscape based on randomised instructions.</p>
+                    <figure>
+                        <!--Contains 'demo' video of code project output-->
+                        <video controls id="demo">
+                            <source src="images/cityscape_demo.mp4" type="video/mp4">
+                        </video>
+                        <figcaption>Demo recorded by Anna Nguyen</figcaption>
+                    </figure>
+                    
+                </section>
+                
+                <section id="infographic">
+                    <h2>Design Work</h2>
+                    <p>Designed an infographic illustrating American <br>crime statistics and suggested technological solutions.</p>
+                    <p class="prompt">Click image to see full infographic</p>
+                    <figure>
+                        <!--Image links to full sized version of infographic shown-->
+                        <a href="images/IFB101_InfoGraphic.png" target="_blank">
+                            <img src="images/IFB101_InfoGraphic_Smaller.jpg" alt="Preview of Infographic">
+                        </a>
+                        <figcaption>
+                        Infographic designed by Anna Nguyen</figcaption>
+                    </figure>
+                </section>
+                
+                
+                <section id="marvel">
+                    <h2>Mobile Prototyping</h2>
+                    <p>Designed concept screens for a shopping<br> app that uses QR codes to store receipt information.</p>
+                    <p class="prompt">Click image to see prototype</p>
+                    <figure>
+                        <!--Image links to external marvel app link of prototype-->
+                        <a href="https://marvelapp.com/prototype/348f4dh/screen/47061900" target="_blank">
+                            <img src="images/IFB103_Marvel_App.png">
+                        </a>
+                        <figcaption>Prototype designed by Anna Nguyen</figcaption>
+                    </figure>
+                </section>
+                
+            </article>
+        </main>
+        
+        <footer>
+            <p>&#169; Anna Nguyen 2020</p>
+        </footer>
+    </body>
+    
+    
+</html>
